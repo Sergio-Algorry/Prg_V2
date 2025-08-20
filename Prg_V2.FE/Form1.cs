@@ -20,8 +20,8 @@ namespace Prg_V2.FE
         private void btIncremeto_Click(object sender, EventArgs e)
         {
             int numero = Convert.ToInt32(lblSalida.Text);
-            //numero++;
-            numero = numero + 1;
+            numero++;
+            //numero = numero + 1;
             lblSalida.Text = numero.ToString();
 
         }
